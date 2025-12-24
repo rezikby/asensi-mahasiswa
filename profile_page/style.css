@@ -1,0 +1,55 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+
+
+body {
+    /* ne flek fungsi untk biar nya kesamping sejajar jadi e */
+display: flex; 
+/* ne kek tiggi body e isi e */
+min-height: 100vh;
+/* ne bg */
+background: #f4f6f8;
+}
+
+
+
+.sidebar {
+width: 220px;
+background: #1f2937;
+color: #fff;
+padding: 20px 0;
+}
+
+
+.sidebar h2 {
+text-align: center;
+margin-bottom: 20px;
+font-size: 18px;
+}
+
+
+.sidebar ul {
+list-style: none;
+}
+
+
+.sidebar ul li {
+padding: 12px 20px;
+cursor: pointer;
+}
+
+
+.sidebar ul li:hover {
+background: #374151;
+}
+
+
+.sidebar ul li a {
+color: #fff;
+text-decoration: none;
+display: block;
+}

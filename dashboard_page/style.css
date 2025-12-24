@@ -81,8 +81,29 @@ margin-bottom: 10px;
   padding: 20px;
   background: #fff;
   text-align: center;
+  font-family: Arial;
+  font-weight: 800;
 }
 
+#total{
+  background-color: yellow;
+}
+
+#hadir{
+  background-color: blue;
+}
+
+#izin{
+  background-color: rgb(255, 0, 221);
+}
+
+#sakit{
+  background-color: purple;
+}
+
+#alpa{
+  background-color: red;
+}
 
 
 #absen {
@@ -106,3 +127,24 @@ th, td {
 th {
   background: #11cc2a;
 }
+
+
+
+
+#batenabsen{
+  background-color:  rgb(0, 134, 175);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 15px;
+  width: 100%;
+}
+
+select{
+  border: none;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
